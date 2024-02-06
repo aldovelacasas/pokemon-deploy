@@ -1,0 +1,55 @@
+body{
+
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-image: url("https://wallpapercave.com/wp/BQYb4Cl.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; /* Centra la imagen vertical y horizontalmente */
+        background-attachment: fixed; /* Mantiene la imagen en su lugar al hacer scroll */
+        
+}
+
+ 
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem ;
+   
+  }
+  .pagination-button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: rgb(224, 17, 17);
+    color: #fffdfd;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .pagination-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Estilo para el número de página actual */
+  .pagination-container span {
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+  }
+  
+  /* Estilos personalizados para los botones */
+  .custom-cursor {
+    cursor: pointer;
+  }
+  
+  /* Estilo para deshabilitar el botón "Previous" cuando es el primer elemento */
+  .pagination-button:first-child:disabled {
+    margin-left: 0;
+  }
+  

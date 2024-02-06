@@ -1,0 +1,38 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/31/52/b1/3152b151b84a7016d0d150b5780944eb.jpg"); /* Color de fondo para la barra de navegación */
+    color: rgb(249, 247, 247); /* Color del texto */
+    padding: 20px 30px; /* Espaciado interno */
+    border-style: inset;
+  }
+  
+  /* Estilos para el logo */
+  .navbar-logo img {
+    max-width: -1px; /* Tamaño máximo para el logo */
+    width: left; /* Para mantener la proporción */
+  }
+  
+  /* Estilos para los enlaces de la barra de navegación */
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-link {
+    margin-left: 30px; /* Espaciado entre los elementos de la barra de navegación */
+    cursor: pointer;
+    color: azure;
+  }
+  
+  /* Estilos para el contenedor del logo */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
